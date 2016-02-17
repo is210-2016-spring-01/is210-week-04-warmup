@@ -8,12 +8,13 @@ def know_what_i_mean(wink, numwink=2):
 
     Args:
         wink (str): String passed to function to be multiplied by numwink.
-        numwink (int, default=2): Multiplier for wink string to stripped return.
+        numwink (int): Wink string multiplier for stripped return. Default: 2.
 
     Returns:
         retstr (str): String with exponentiated wink in formatted output.
 
     Examples:
+
         >>> know_what_i_mean('test')
         'Know what I mean? testest, nudge nudge'
 

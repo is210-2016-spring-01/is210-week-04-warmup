@@ -7,7 +7,7 @@ def defaults(my_required, my_optional=True):
     """A function to see if there's at least one litterbox per kitten and food.
 
     Args:
-        my_optional (bool, default=True): First comparison value (Optional).
+        my_optional (bool, Optional): First comparison value. Default: True.
         my_required (mixed): Argument to test against my_optional.
 
     Returns:
