@@ -9,16 +9,16 @@ def defaults(my_required, my_optional=True):
     parameter
 
     Arguments:
-    my_required(Boolean): This parameter does not have a default value.
-    my_optional(Boolean): This parameter has the value of True.
+        my_required(Boolean): This parameter does not have a default value.
+        my_optional(Boolean): This parameter has the value of True.
 
     Example:
-    >>> defaults(True)
-    True
-    >>> defaults(True, False)
-    False
-    >>> defaults(False, False)
-    True
+        >>> defaults(True)
+        True
+        >>> defaults(True, False)
+        False
+        >>> defaults(False, False)
+        True
 
     """
 
