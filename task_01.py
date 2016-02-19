@@ -16,7 +16,7 @@ def know_what_i_mean(wink, numwink=2):
 
     Returns:
         str: Arguments put together with number of winks and nudges specified
-        by the user. 
+        by the user.
 
         Examples:
 
@@ -25,7 +25,7 @@ def know_what_i_mean(wink, numwink=2):
          nudge nudge nudge nudge'
 
         >>> know_what_i_mean(3)
-        'Know what I mean? wink wink, nudge nudge'       
+        'Know what I mean? wink wink, nudge nudge'
     """
 
     winks = (wink * numwink).strip()
