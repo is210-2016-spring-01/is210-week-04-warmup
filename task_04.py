@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """This module does some comparisons"""
 
-def too_many_kittens(kittens,litterboxes,catfood):
+def too_many_kittens(kittens, litterboxes, catfood):
     """
     This Arguement compares litters boxes to kittens and catfood
     
