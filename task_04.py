@@ -4,7 +4,6 @@
 
 def too_many_kittens(kittens, litterboxes, catfood):
 
-    
     """
     This Arguement compares litters boxes to kittens and catfood
     
