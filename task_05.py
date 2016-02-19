@@ -3,6 +3,8 @@
 """This module does a logical comparison"""
 
 def defaults(my_required, my_optional=True):
+
+    
     """ This function compares my_required with my_optional's default value;True
 
         Args:
