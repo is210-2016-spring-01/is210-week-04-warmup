@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """This module does some pretty crazy math."""
 
+
 HAMLET_HOURS = 2 ** 30
 SHIFTS = 3
 BANANA_MULTIPLIER = 0.4
@@ -34,4 +35,13 @@ def crazy_math(monkeys, hours, typewriters=None, bananas=None):
     banana_effect = bananas * BANANA_MULTIPLIER
 
     chance = (hours * (utilization + banana_effect)) / HAMLET_HOURS
+
     return chance
+
+
+import task_02
+import task_03
+
+print task_02.POSITIONAL
+print task_03.KEYWORD
+
