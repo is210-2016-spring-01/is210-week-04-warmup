@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 """This module does some pretty crazy math."""
 
+import task_02
+
+import task_03
+
 
 HAMLET_HOURS = 2 ** 30
 SHIFTS = 3
@@ -38,10 +42,5 @@ def crazy_math(monkeys, hours, typewriters=None, bananas=None):
 
     return chance
 
-
-import task_02
-import task_03
-
-print task_02.POSITIONAL
-print task_03.KEYWORD
-
+    print task_02.POSITIONAL
+    print task_03.KEYWORD
