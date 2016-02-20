@@ -1,6 +1,7 @@
 #!usr/bin/env/python
-# -*- uft code-8 -*-
+# -*- coding: utf-8 -*-
 """Defining a function with three parameters."""
+
 
 def too_many_kittens(kittens, litterboxes, catfood):
     """This function has three arguments.

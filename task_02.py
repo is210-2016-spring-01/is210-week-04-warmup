@@ -6,4 +6,3 @@
 import hamlet
 
 POSITIONAL = hamlet.crazy_math(4, 1000000, 8, 98)
-
