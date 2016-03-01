@@ -25,4 +25,3 @@ def defaults(my_required, my_optional=True):
         True
     """
     return my_optional is my_required
-
