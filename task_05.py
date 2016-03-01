@@ -3,7 +3,7 @@
 """A small docstring"""
 
 
-def defaults(my_optional=True, my_required):
+def defaults(my_required, my_optional=True):
     """A function with a default value.
 
     Args:
