@@ -11,8 +11,9 @@ def know_what_i_mean(wink, numwink=2):
         numwink (int): Defined number. Default: 2
 
     Returns:
-        int: All arguements mutiplied with commas
-
+        wink (str): Word or phrased mutlipied
+        numwink (int): All arguements that are repeated with this number
+        
     Examples:
 
         >>> know_what_i_mean(wink='eye ', numwink=3)
