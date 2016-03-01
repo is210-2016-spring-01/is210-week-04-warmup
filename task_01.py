@@ -13,7 +13,7 @@ def know_what_i_mean(wink, numwink=2):
     Returns:
         wink (str): Word or phrased mutlipied
         numwink (int): All arguements that are repeated with this number
-        
+
     Examples:
 
         >>> know_what_i_mean(wink='eye ', numwink=3)
