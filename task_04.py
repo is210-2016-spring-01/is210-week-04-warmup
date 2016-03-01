@@ -3,7 +3,7 @@
 """Another small docstring"""
 
 
-def too_many_kittens(kittens, litterboxes=1, catfood=True):
+def too_many_kittens(kittens, litterboxes, catfood):
     """A function defining kittens.
 
     Args:
